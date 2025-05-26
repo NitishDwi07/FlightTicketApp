@@ -1,14 +1,14 @@
 {
   "project_info": {
-    "project_number": "543912461709",
-    "firebase_url": "https://ndflightticket-default-rtdb.firebaseio.com",
-    "project_id": "ndflightticket",
-    "storage_bucket": "ndflightticket.firebasestorage.app"
+    "project_number": "651586653260",
+    "firebase_url": "https://flightticketapp-b116d-default-rtdb.firebaseio.com",
+    "project_id": "flightticketapp-b116d",
+    "storage_bucket": "flightticketapp-b116d.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:543912461709:android:ac6d1c97550c5b1b1369c4",
+        "mobilesdk_app_id": "1:651586653260:android:0cfb52398c4f79172df8e9",
         "android_client_info": {
           "package_name": "com.example.flightticketapp"
         }
@@ -16,7 +16,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBllOdUy9pq8hMEn5WKdyZMkgd8TQlRzBg"
+          "current_key": "AIzaSyBQjcO14MqPoBMe_eG_RS6Y4zGqLzL4GAk"
         }
       ],
       "services": {

@@ -54,7 +54,7 @@ fun SeatListScreen(
         seatList.clear()
         seatList.addAll(generateSeatList(flight))
         seatCount=selectedSeatNames.size
-        totalPrice=seatCount *flight.Price
+        totalPrice=seatCount*flight.Price
     }
 
     fun updatePriceCount(){
@@ -155,7 +155,6 @@ fun SeatListScreen(
                 end.linkTo(parent.end)
             }
 
-
         )
     }
 
@@ -169,9 +168,9 @@ fun generateSeatList(flight: FlightModel): List<Seat>{
         0 to "A",
         1 to "B",
         2 to "C",
-        3 to "D",
-        4 to "E",
-        5 to "F",
+        4 to "D",
+        5 to "E",
+        6 to "F",
     )
 
     var row =0

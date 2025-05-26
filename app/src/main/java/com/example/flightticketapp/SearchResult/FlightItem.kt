@@ -58,7 +58,7 @@ fun FlightItem(item: FlightModel,index:Int){
             contentDescription = null,
             contentScale = ContentScale.Fit,
             modifier = Modifier
-                .size(width =200.dp,height = 50.dp)
+                .size(width =200.dp,height = 40.dp)
                 .constrainAs (logo){
                     start.linkTo(parent.start)
                     top.linkTo(parent.top)

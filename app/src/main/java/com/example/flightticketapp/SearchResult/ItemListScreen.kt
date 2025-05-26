@@ -53,7 +53,7 @@ fun ItemListScreen(
         modifier = Modifier
             .fillMaxSize()
             .background(color = colorResource(R.color.darkPurple2))
-            .padding(top=36.dp, start = 16.dp,end=16.dp)
+            .padding(top=50.dp, start = 16.dp,end=16.dp)
     ) {
         val (backBtn, headerTitle, worldImg) = createRefs()
         Image(

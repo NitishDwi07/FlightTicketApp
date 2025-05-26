@@ -36,7 +36,7 @@ fun TicketDetailContent(
 ){
     Column (
         modifier = modifier
-            .padding(24.dp)
+            .padding(30.dp)
             .background(
                 color= colorResource(R.color.lightPurple),
                 shape = RoundedCornerShape(20.dp)
@@ -45,7 +45,7 @@ fun TicketDetailContent(
         ConstraintLayout (
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(vertical = 8.dp)
+
 
         ){
             val(logo, arrivalTxt, lineImg,fromTxt,fromShortTxt,toTxt,toShortTxt)=createRefs()
@@ -54,7 +54,7 @@ fun TicketDetailContent(
                 model = flight.AirlineLogo,
                 contentDescription = null,
                 modifier= Modifier
-                    .size(200.dp)
+                    .size(160.dp)
                     .constrainAs (logo){
                         top.linkTo(parent.top, margin = 8.dp)
                         start.linkTo(parent.start)

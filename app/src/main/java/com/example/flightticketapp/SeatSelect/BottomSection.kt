@@ -28,7 +28,7 @@ fun BottomSection(
     modifier: Modifier
 ){
     Column (
-        modifier = Modifier
+        modifier = modifier
             .fillMaxWidth()
             .height(180.dp)
             .background(colorResource(R.color.darkPurple2))
@@ -69,7 +69,7 @@ fun BottomSection(
                 text = "$${String.format("%.0f", totalPrice)}",
                 color = colorResource(R.color.orange),
                 fontWeight = FontWeight.SemiBold,
-                fontSize = 13.sp
+                fontSize = 25.sp
             )
         }
         GradientButton(onClick = onConfirmClick, "Confirm Seats")

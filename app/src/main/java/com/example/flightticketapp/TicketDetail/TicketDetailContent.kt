@@ -5,13 +5,12 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material.Text
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -23,10 +22,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.constraintlayout.compose.ConstraintLayout
 import coil.compose.AsyncImage
-import coil.compose.AsyncImagePainter.State.Empty.painter
 import com.example.flightticketapp.Domain.FlightModel
 import com.example.flightticketapp.R
-import kotlin.math.log
 
 
 @Composable
@@ -87,7 +84,7 @@ fun TicketDetailContent(
             Text(
                 text="from",
                 fontSize = 14.sp,
-                color = _root_ide_package_.androidx.compose.ui.graphics.Color.Black,
+                color = Color.Black,
                 modifier= Modifier.constrainAs (fromTxt){
                     top.linkTo(arrivalTxt.bottom)
                     start.linkTo(parent.start)
@@ -99,7 +96,7 @@ fun TicketDetailContent(
                 text= flight.FromShort,
                 fontSize = 18.sp,
                 fontWeight = FontWeight.Bold,
-                color = _root_ide_package_.androidx.compose.ui.graphics.Color.Black,
+                color =Color.Black,
                 modifier= Modifier.constrainAs (fromShortTxt){
                     top.linkTo(fromTxt.bottom, margin = 8.dp)
                     start.linkTo(fromTxt.start)
@@ -111,7 +108,7 @@ fun TicketDetailContent(
             Text(
                 text="to",
                 fontSize = 14.sp,
-                color = _root_ide_package_.androidx.compose.ui.graphics.Color.Black,
+                color = Color.Black,
                 modifier= Modifier.constrainAs (toTxt){
                     top.linkTo(arrivalTxt.bottom)
                     end.linkTo(parent.end)
@@ -123,7 +120,7 @@ fun TicketDetailContent(
                 text= flight.ToShort,
                 fontSize = 18.sp,
                 fontWeight = FontWeight.Bold,
-                color = _root_ide_package_.androidx.compose.ui.graphics.Color.Black,
+                color = Color.Black,
                 modifier= Modifier.constrainAs (toShortTxt){
                     top.linkTo(toTxt.bottom, margin = 8.dp)
                     start.linkTo(toTxt.start)

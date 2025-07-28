@@ -1,30 +1,61 @@
+# ✈️ SkyRoute
 
-# SkyRoute
-SkyRoute App helps you book flights with ease. Check flight availability on your preferred dates, book seats, and make secure payments all in one app.
+Book flights with ease! SkyRoute lets you check flight availability, book your seats, and pay securely—all from one sleek and modern Android app.
 
-Key Features:
+<p align="center">
+  <a href="https://developer.android.com/kotlin"><img src="https://img.shields.io/badge/Kotlin-1.9-orange?style=for-the-badge&logo=kotlin" /></a>
+  <a href="https://developer.android.com/jetpack/compose"><img src="https://img.shields.io/badge/Jetpack%20Compose-Modern%20UI-blue?style=for-the-badge&logo=android" /></a>
+  <a href="https://firebase.google.com"><img src="https://img.shields.io/badge/Firebase-Realtime%20DB-yellow?style=for-the-badge&logo=firebase" /></a>
+  <a><img src="https://img.shields.io/badge/MVVM-Clean%20Architecture-green?style=for-the-badge" /></a>
+</p>
 
-- Check flight availability on specific dates.
-- Book seats on your preferred flights.
-- Secure payment options with help or barcode or QRCode.
+---
 
-Benefits:
+## 📽️ Demo
 
-- Easy Flight Management: Check availability, book, and manage your flights all in one place.
-- Quick & Secure Transactions: Enjoy fast and secure payment processing, including scan & pay option.
+🎬 **[Watch Demo Video](https://drive.google.com/file/d/1cuedwc2wBsebPZ5Pj1aIG_QAIGOLAwe0/view?usp=drivesdk)**
 
-## Demo
-https://drive.google.com/file/d/1cuedwc2wBsebPZ5Pj1aIG_QAIGOLAwe0/view?usp=drivesdk
-## Technologies and Tools:
+---
 
-- Kotlin: Used for developing the Android app, providing a concise and expressive codebase.
-- Jetpack Compose: Utilized for building the app's user interface, enabling a modern and intuitive design.
-- Firebase Realtime Database: Implemented for storing and retrieving data in real-time, ensuring seamless data synchronization across the app.
-- MVVM Clean Architecture: Adopted to structure the app's codebase, promoting separation of concerns, maintainability, and testability.
+## 🌟 Features
 
-## Skills Demonstrated:
+🚀 **Fast & Easy Booking**
+- Browse and book flights by date
+- View available seats on the go
 
-- Android App Development: Building a functional Android app with a user-friendly interface for flight booking and management.
-- Real-time Data Management: Integrating Firebase Realtime Database to store and retrieve data in real-time, ensuring seamless data synchronization.
-- UI Development: Creating a modern and intuitive UI with Jetpack Compose to display flight information and facilitate user interaction.
-- MVVM Architecture: Implementing a clean and maintainable architecture pattern to separate concerns and promote code scalability.
+🔒 **Secure Payments**
+- Scan-to-pay using QR code/barcode
+- Encrypted and safe transactions
+
+🛫 **Flight Management Made Simple**
+- Central dashboard to manage bookings
+- Intuitive UI for smooth navigation
+
+🕐 **Real-time Data**
+- Syncs instantly with Firebase Realtime DB
+
+---
+
+## 🛠 Technologies & Tools
+
+| Technology              | Purpose                                     |
+|--------------------------|---------------------------------------------|
+| `Kotlin`                | Core app development                       |
+| `Jetpack Compose`       | Declarative, reactive UI                   |
+| `Firebase Realtime DB`  | Real-time backend data management          |
+| `MVVM Clean Architecture` | Clean, scalable, testable app structure     |
+| `QR/Barcode Scan`       | Secure and instant payments                |
+
+---
+
+## 🧠 Skills Demonstrated
+
+- 📱 **Android Development** using Kotlin + Compose  
+- 🔁 **Real-time Firebase integration**  
+- 🧩 **Clean MVVM architecture**  
+- 💸 **Secure QR/Barcode payment integration**  
+- 🎨 **Modern UI/UX** with Jetpack Compose  
+
+---
+
+
